@@ -66,26 +66,27 @@ function App() {
 
   const closeMenu = () => setMenuOpen(false);
 
-  return (
-    <>
-      <header className="header">
-        <a
-          className="brand"
-          href="#inicio"
-          onClick={closeMenu}
-          aria-label="INFAMEL, inicio"
-        >
-          <span className="brand-mark">
-            <Wrench size={24} />
-          </span>
+  
+return (
+  <>
+    <header className="header">
+      <a
+        className="brand"
+        href="#inicio"
+        onClick={closeMenu}
+        aria-label="INFAMEL, inicio"
+      >
+        <span className="brand-mark">
+          <img src="/logo.png" alt="Logo INFAMEL" />
+        </span>
 
-          <span>
-            <strong>
-              INFA<span>MEL</span>
-            </strong>
-            <small>REPUESTOS Y REPARACIONES</small>
-          </span>
-        </a>
+        <span>
+          <strong>
+            INFA<span>MEL</span>
+          </strong>
+          <small>REPUESTOS Y REPARACIONES</small>
+        </span>
+      </a>
 
         <button
           className="menu-toggle"
