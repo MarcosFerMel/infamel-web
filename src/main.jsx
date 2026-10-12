@@ -77,7 +77,7 @@ return (
         aria-label="INFAMEL, inicio"
       >
         <span className="brand-mark">
-          <img src="/logo.png" alt="Logo INFAMEL" />
+          <img src="/images/logo.png" alt="Logo INFAMEL" />
         </span>
 
         <span>
